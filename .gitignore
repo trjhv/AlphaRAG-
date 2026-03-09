@@ -1,0 +1,170 @@
+# Python
+# ------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+# --------------------
+venv/
+env/
+ENV/
+.venv
+.env
+virtualenv/
+
+# IDE & Editors
+# -------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebooks
+# -----------------
+.ipynb_checkpoints
+*.ipynb
+
+# Environment Variables & Secrets
+# --------------------------------
+.env
+.env.local
+.env.*.local
+secrets.toml
+.streamlit/secrets.toml
+*.key
+*.pem
+*.p12
+api_keys.txt
+
+# Proprietary Data Files
+# ----------------------
+# CRITICAL: Never commit these proprietary files
+*.faiss              # FAISS vector indices
+*.pkl                # Pickled metadata and models
+*.pickle
+*.h5                 # Model weights
+*.pt                 # PyTorch models
+*.pth
+*.onnx              # ONNX models
+*.safetensors       # Model checkpoints
+
+# Document Files (10-K filings, etc.)
+# -----------------------------------
+*.pdf
+data/
+raw_data/
+processed_data/
+documents/
+10k_filings/
+
+# Model Checkpoints
+# -----------------
+models/
+checkpoints/
+saved_models/
+*.model
+*.bin
+
+# Logs & Debugging
+# ----------------
+*.log
+logs/
+*.out
+*.err
+
+# Testing
+# -------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Database
+# --------
+*.db
+*.sqlite
+*.sqlite3
+
+# OS Files
+# --------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+# ---------------
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Documentation Build
+# -------------------
+docs/_build/
+site/
+
+# Distribution
+# ------------
+*.tar.gz
+*.zip
+*.whl
+
+# Backend State
+# -------------
+# In-memory state that should never be committed
+server_state/
+cache/
+.cache/
+
+# API Keys & Credentials
+# ----------------------
+# Double-check these are NEVER committed
+*_api_key*
+*credentials*
+*secrets*
+groq_key.txt
+openai_key.txt
+
+# =======================================
+# PROPRIETARY IP PROTECTION
+# =======================================
+# The following patterns protect trade secrets:
+#
+# - ReAct agent implementation
+# - Custom system prompts
+# - Proprietary embeddings
+# - Fine-tuned models
+# - Training data
+# - Vector indices
+# - BM25 configurations
+#
+# NEVER commit these to the public repository!
+# =======================================
